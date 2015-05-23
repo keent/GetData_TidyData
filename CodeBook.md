@@ -13,7 +13,7 @@ The variables can be decomposed to the following:
 * The Activity
 * The Subject
 * The average of the mean and std of the original variables from the original data set.
-This means the tidy_data.txt contains the average of each variable for each activity and each subject
+This means the tidy_data.txt contains the average of each mean and std measurement for each activity and each subject
 
 Parts of the following description is taken from the original data set, the only difference is that only the mean value, and standard deviation of the features were retained:
 
@@ -65,7 +65,8 @@ average of each mean and std measurements for each Activity and each Subject
 
 Transformations
 ---------------
-To produce tidy_data.txt, the following transformations from the original dataset were performed in order
+To produce tidy_data.txt, the following transformations from the original dataset were performed in order  
+
 1. Merged the training and test sets 
 2. Extract the mean and std measurements only for each measurement
 3. Changed the activity names to strings from their integer representation
