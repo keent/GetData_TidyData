@@ -70,5 +70,6 @@ dataSummary <- summarise_each(dataSummary, funs(mean))
 dataSummary <- arrange(dataSummary, Subject)
 
 # Save it to a file
-write.table(dataSummary, file="tidy_data.txt", row.names=FALSE)
 setwd("../")
+write.table(dataSummary, file="tidy_data.txt", row.names=FALSE)
+
